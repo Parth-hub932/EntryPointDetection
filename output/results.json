@@ -1,38 +1,265 @@
 [
     {
-        "url": "https://acenmamit.vercel.app",
+        "url": "http://testphp.vulnweb.com",
+        "forms": [
+            {
+                "action": "search.php?test=query",
+                "method": "POST",
+                "inputs": [
+                    {
+                        "name": "searchFor",
+                        "type": "text",
+                        "flag": "\u26a0\ufe0f"
+                    },
+                    {
+                        "name": "goButton",
+                        "type": "submit",
+                        "flag": ""
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "url": "http://testphp.vulnweb.com/index.php",
+        "forms": [
+            {
+                "action": "search.php?test=query",
+                "method": "POST",
+                "inputs": [
+                    {
+                        "name": "searchFor",
+                        "type": "text",
+                        "flag": "\u26a0\ufe0f"
+                    },
+                    {
+                        "name": "goButton",
+                        "type": "submit",
+                        "flag": ""
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "url": "http://testphp.vulnweb.com/categories.php",
+        "forms": [
+            {
+                "action": "search.php?test=query",
+                "method": "POST",
+                "inputs": [
+                    {
+                        "name": "searchFor",
+                        "type": "text",
+                        "flag": "\u26a0\ufe0f"
+                    },
+                    {
+                        "name": "goButton",
+                        "type": "submit",
+                        "flag": ""
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "url": "http://testphp.vulnweb.com/artists.php",
+        "forms": [
+            {
+                "action": "search.php?test=query",
+                "method": "POST",
+                "inputs": [
+                    {
+                        "name": "searchFor",
+                        "type": "text",
+                        "flag": "\u26a0\ufe0f"
+                    },
+                    {
+                        "name": "goButton",
+                        "type": "submit",
+                        "flag": ""
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "url": "http://testphp.vulnweb.com/disclaimer.php",
+        "forms": [
+            {
+                "action": "search.php?test=query",
+                "method": "POST",
+                "inputs": [
+                    {
+                        "name": "searchFor",
+                        "type": "text",
+                        "flag": "\u26a0\ufe0f"
+                    },
+                    {
+                        "name": "goButton",
+                        "type": "submit",
+                        "flag": ""
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "url": "http://testphp.vulnweb.com/cart.php",
+        "forms": [
+            {
+                "action": "search.php?test=query",
+                "method": "POST",
+                "inputs": [
+                    {
+                        "name": "searchFor",
+                        "type": "text",
+                        "flag": "\u26a0\ufe0f"
+                    },
+                    {
+                        "name": "goButton",
+                        "type": "submit",
+                        "flag": ""
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "url": "http://testphp.vulnweb.com/guestbook.php",
+        "forms": [
+            {
+                "action": "",
+                "method": "POST",
+                "inputs": [
+                    {
+                        "name": "name",
+                        "type": "hidden",
+                        "flag": ""
+                    },
+                    {
+                        "name": "submit",
+                        "type": "submit",
+                        "flag": ""
+                    }
+                ]
+            },
+            {
+                "action": "search.php?test=query",
+                "method": "POST",
+                "inputs": [
+                    {
+                        "name": "searchFor",
+                        "type": "text",
+                        "flag": "\u26a0\ufe0f"
+                    },
+                    {
+                        "name": "goButton",
+                        "type": "submit",
+                        "flag": ""
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "url": "http://testphp.vulnweb.com/AJAX/index.php",
         "forms": []
     },
     {
-        "url": "https://acenmamit.vercel.app/",
+        "url": "http://testphp.vulnweb.com/login.php",
+        "forms": [
+            {
+                "action": "userinfo.php",
+                "method": "POST",
+                "inputs": [
+                    {
+                        "name": "uname",
+                        "type": "text",
+                        "flag": ""
+                    },
+                    {
+                        "name": "pass",
+                        "type": "password",
+                        "flag": "\u26a0\ufe0f"
+                    },
+                    {
+                        "name": "",
+                        "type": "submit",
+                        "flag": ""
+                    }
+                ]
+            },
+            {
+                "action": "search.php?test=query",
+                "method": "POST",
+                "inputs": [
+                    {
+                        "name": "searchFor",
+                        "type": "text",
+                        "flag": "\u26a0\ufe0f"
+                    },
+                    {
+                        "name": "goButton",
+                        "type": "submit",
+                        "flag": ""
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "url": "http://testphp.vulnweb.com/userinfo.php",
+        "forms": [
+            {
+                "action": "userinfo.php",
+                "method": "POST",
+                "inputs": [
+                    {
+                        "name": "uname",
+                        "type": "text",
+                        "flag": ""
+                    },
+                    {
+                        "name": "pass",
+                        "type": "password",
+                        "flag": "\u26a0\ufe0f"
+                    },
+                    {
+                        "name": "",
+                        "type": "submit",
+                        "flag": ""
+                    }
+                ]
+            },
+            {
+                "action": "search.php?test=query",
+                "method": "POST",
+                "inputs": [
+                    {
+                        "name": "searchFor",
+                        "type": "text",
+                        "flag": "\u26a0\ufe0f"
+                    },
+                    {
+                        "name": "goButton",
+                        "type": "submit",
+                        "flag": ""
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "url": "http://testphp.vulnweb.com/privacy.php",
         "forms": []
     },
     {
-        "url": "https://acenmamit.vercel.app/events",
+        "url": "http://testphp.vulnweb.com/Mod_Rewrite_Shop/",
         "forms": []
     },
     {
-        "url": "https://acenmamit.vercel.app/blogs",
-        "forms": []
-    },
-    {
-        "url": "https://acenmamit.vercel.app/gallery",
-        "forms": []
-    },
-    {
-        "url": "https://acenmamit.vercel.app/team",
-        "forms": []
-    },
-    {
-        "url": "https://acenmamit.vercel.app/faculty",
-        "forms": []
-    },
-    {
-        "url": "https://acenmamit.vercel.app/developers",
-        "forms": []
-    },
-    {
-        "url": "https://acenmamit.vercel.app#footer",
+        "url": "http://testphp.vulnweb.com/hpp/",
         "forms": []
     }
 ]
